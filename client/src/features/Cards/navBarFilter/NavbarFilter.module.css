@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    
+    width: 100%;
+    height: calc(100vh *0.1);
+    background-color: #1F2551;
+}
+
+.search > span:hover {
+    pointer-events:all;
+}
+
+
+.search > span {
+    background:fixed;    
+    background-color: white;
+    border-radius: 8px;
+    pointer-events:all;
+}
+.search > span> button:hover{
+    pointer-events:all;
+}
+

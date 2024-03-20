@@ -1,0 +1,24 @@
+.container{
+    width: 100%;
+    max-height: 500px;
+    background-color: rgba(228, 127, 54, 0.874);
+}
+
+
+.title{
+    font-size: 60px;
+    margin-top: 0px;
+}
+
+.itemSlider{
+    width: 100%;
+    height: calc(100vh * 0.5);
+
+ 
+}
+
+.itemSlider h3{
+    margin-top: 11%;
+
+}
+

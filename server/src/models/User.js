@@ -25,9 +25,15 @@ module.exports = (sequelize) => {
             allowNull: false,
             defaultValue: 'user'
         },
-        location: {
-            type: DataTypes.STRING,
-            allowNull: true
+        deleted: {
+            type: DataTypes.BOOLEAN,
+            allowNull: false,
+            defaultValue: false
+        },
+        imgUrl: {
+            type: DataTypes.TEXT,
+            allowNull: true,
+            defaultValue: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaaNaTC8W_ygKLZxLFWpHOerfIYQiVlsuyrw&usqp=CAU"
         }
     },
     {

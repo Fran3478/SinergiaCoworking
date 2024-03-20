@@ -20,16 +20,9 @@ function generateInfo(data){
   const dataUser = {
       id: data.id,
       name: data.name,
-      lastName: data.lastName,
       email: data.email,
-      /* dni: data.dni,
-      birthDate: data.birthDate,
-      address: data.address,
-      upToDate: data.upToDate,
-      backupContact: data.backupContact,
-      imageUrl: data.imageUrl,
-      plan: data.plan,
-      dniType: data.dniType */
+      type: data.accessLevel,
+      imgUrl: data.imgUrl
   }
   return dataUser
 };
