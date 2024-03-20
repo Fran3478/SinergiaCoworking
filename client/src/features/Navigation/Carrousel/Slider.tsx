@@ -44,8 +44,6 @@ const SliderCarousel: React.FC<SliderCarouselProps> = ({
               <p style={{ fontWeight: "400" }}> 
               Somos un espacio de trabajo donde las ideas fluyen libremente y las conexiones se forman
               naturalmente. 
-              
-              
               {/* La colaboración en equipo multiplica la creatividad y la
               innovación.<br></br><br></br>
                El coworking transforma el trabajo individual en una
@@ -74,7 +72,6 @@ const SliderCarousel: React.FC<SliderCarouselProps> = ({
     </div>
   );
 };
-
 const item = (image: string, text: JSX.Element, imageName: string) => {
   return (
     <StyleItem>
